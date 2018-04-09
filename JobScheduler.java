@@ -18,7 +18,13 @@ public class JobScheduler {
 		FileReader fr = new FileReader(f);
 		BufferedReader br = new BufferedReader(fr);
 		
+		String line = br.readLine();
 		
+		while(br.)
+	}
+	
+	public PCB serve() {
+		return list.serve().getData();
 	}
 	
 }

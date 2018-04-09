@@ -1,5 +1,5 @@
 
-public class Process {
+public class PCB {
 	
 	private int id;
 	private int cpuTime;
@@ -8,7 +8,7 @@ public class Process {
 	private State state;
 	
 	
-	public Process(int id, int cpuTime, int size) {
+	public PCB(int id, int cpuTime, int size) {
 		this.id = id;
 		this.cpuTime = cpuTime;
 		this.size = size;

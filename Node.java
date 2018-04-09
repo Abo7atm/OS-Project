@@ -1,8 +1,9 @@
 
 public class Node {
-	private Process data;
+	private PCB data;
 	private Node next;
-	public Node(Process p) {
+	
+	public Node(PCB p) {
 		this.data = p;
 	}
 	
